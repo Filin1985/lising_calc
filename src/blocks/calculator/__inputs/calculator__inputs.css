@@ -1,0 +1,21 @@
+.calculator__inputs {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 32px;
+  margin: 0px 48px;
+}
+
+@media screen and (max-width: 1024px) {
+  .calculator__inputs {
+    flex-direction: column;
+    margin: 44px 48px 0 48px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .calculator__inputs {
+    flex-direction: column;
+    margin: 0px 20px;
+  }
+}

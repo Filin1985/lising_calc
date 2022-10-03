@@ -1,0 +1,9 @@
+.calculator__result_lising {
+  width: 427px;
+}
+
+@media screen and (max-width: 768px) {
+  .calculator__result_lising {
+    width: 280px;
+  }
+}

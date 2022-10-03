@@ -1,0 +1,16 @@
+.calculator__sign {
+  font-family: "Nekst-Black";
+  font-style: normal;
+  font-size: 30px;
+  line-height: 90%;
+  margin: 0 24px 0 0;
+  color: var(--gray);
+  vertical-align: middle;
+}
+
+@media screen and (max-width: 550px) {
+  .calculator__sign {
+    font-size: 22px;
+    line-height: 150%;
+  }
+}

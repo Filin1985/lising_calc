@@ -1,0 +1,9 @@
+.calculator__box {
+  max-height: 119px;
+}
+
+@media screen and (max-width: 1024px) {
+  .calculator__box {
+    min-width: calc(100% - 2 * 48px);
+  }
+}

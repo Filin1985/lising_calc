@@ -1,0 +1,20 @@
+.calculator__number.calculator__item_el_auto {
+  background-color: transparent;
+  vertical-align: middle;
+  font-family: "Nekst-Black";
+  font-style: normal;
+  font-size: 30px;
+  line-height: 36px;
+  color: var(--gray);
+  padding: 16px 0 16px 24px;
+}
+
+.calculator__item_el_auto > span {
+  padding-left: 9px;
+}
+
+@media screen and (max-width: 550px) {
+  .calculator__number.calculator__item_el_auto {
+    font-size: 22px;
+  }
+}

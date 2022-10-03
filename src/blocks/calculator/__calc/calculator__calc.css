@@ -1,0 +1,12 @@
+.calculator__calc {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+}
+
+@media screen and (max-width: 660px) {
+  .calculator__calc {
+    flex-direction: column;
+    gap: 29px;
+  }
+}

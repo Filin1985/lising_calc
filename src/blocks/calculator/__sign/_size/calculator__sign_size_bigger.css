@@ -1,0 +1,18 @@
+.calculator__sign_size_bigger {
+  font-size: 54px;
+  line-height: 90%;
+  margin: 0;
+  vertical-align: middle;
+}
+
+@media screen and (max-width: 1024px) {
+  .calculator__sign_size_bigger {
+    color: var(--dark-gray);
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .calculator__sign_size_bigger {
+    font-size: 22px;
+  }
+}

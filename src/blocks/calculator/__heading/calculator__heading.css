@@ -1,0 +1,28 @@
+.calculator__heading {
+  font-family: "Nekst-Black";
+  font-style: normal;
+  font-size: 54px;
+  line-height: 90%;
+  margin: 213px 20px 32px 47px;
+  max-width: 753px;
+}
+
+@media screen and (max-width: 1024px) {
+  .calculator__heading {
+    margin-top: 100px;
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .calculator__heading {
+    font-size: 34px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .calculator__heading {
+    margin: 44px 0 32px 21px;
+    font-size: 34px;
+  }
+}

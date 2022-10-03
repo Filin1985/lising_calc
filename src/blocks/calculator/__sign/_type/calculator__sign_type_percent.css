@@ -1,0 +1,7 @@
+.calculator__sign_type_percent {
+  background-color: var(--line-gray);
+  font-size: 20px;
+  padding: 9px 17px;
+  margin: 7px;
+  border-radius: 16px;
+}

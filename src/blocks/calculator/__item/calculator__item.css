@@ -1,0 +1,23 @@
+.calculator__item {
+  border: none;
+  border-radius: 16px;
+  font-family: "Nekst-Black";
+  font-style: normal;
+  font-size: 30px;
+  line-height: 36px;
+  color: var(--gray);
+  padding: 16px 0 16px 24px;
+  background-color: var(--light-gray);
+  width: 150px;
+}
+
+.calculator__item:focus {
+  outline: none;
+  background-color: var(--white);
+}
+
+@media screen and (max-width: 550px) {
+  .calculator__item {
+    font-size: 22px;
+  }
+}

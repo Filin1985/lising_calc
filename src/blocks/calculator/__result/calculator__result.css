@@ -1,0 +1,7 @@
+.calculator__result {
+  max-width: 100%;
+}
+
+.calculator__result .calculator__title {
+  margin-bottom: 8px;
+}
